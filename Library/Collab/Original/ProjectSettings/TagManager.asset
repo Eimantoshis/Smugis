@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Bloga
+  - Gera
+  - Daiktas
+  - Zaidejas
+  - priesas
+  - sirdele
+  - ginklas
+  - strele
+  - bosas
+  - BossSpawner
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Veikejas
+  - Blokavimas
+  - Enemies
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Grindys
+    uniqueID: 4052045351
+    locked: 0
+  - name: numesti
+    uniqueID: 2027937547
+    locked: 0
+  - name: Veikejas
+    uniqueID: 3473519729
+    locked: 0
+  - name: Medziai
+    uniqueID: 1224649201
+    locked: 0

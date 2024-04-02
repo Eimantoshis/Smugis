@@ -1,0 +1,141 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7821415092685897501
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8901020774487817475}
+  - component: {fileID: 3239502293605386168}
+  m_Layer: 0
+  m_Name: QuestManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8901020774487817475
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7821415092685897501}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.097331, y: 1.0041656, z: -414.413}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3239502293605386168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7821415092685897501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17af8c53aede68d47860e522243c9718, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questList:
+  - title: Aplankyti 1
+    id: 1
+    progress: 1
+    description: "Apsilankyk parduotuv\u0117je"
+    hint: "Apsilankyk parduotuv\u0117je"
+    congratulation: Tau pavyko!
+    summary: 
+    nextQuest: 2
+    questObjective: "Parduotuv\u0117s apsilankymas"
+    questObjectiveCount: 0
+    questObjectiveRequirement: 1
+    expReward: 0
+    CoinsReward: 6
+  - title: Aplankyti 2
+    id: 2
+    progress: 3
+    description: "Atkeliauk \u012F boso aren\u0105"
+    hint: "Prasigriauk sien\u0105 su lazda ir pasiek boso aren\u0105"
+    congratulation: Tau pavyko!
+    summary: 
+    nextQuest: 3
+    questObjective: Boso arenos aplankymas
+    questObjectiveCount: 0
+    questObjectiveRequirement: 1
+    expReward: 0
+    CoinsReward: 10
+  - title: Aplankyti 3
+    id: 3
+    progress: 0
+    description: "Aplankyk negyvenamosios salos baub\u0105"
+    hint: "persikelk su plaustu \u012F s\u0105l\u0105 ir surask baub\u0105"
+    congratulation: Tau pavyko!
+    summary: 
+    nextQuest: 0
+    questObjective: Baubo aplankymas
+    questObjectiveCount: 0
+    questObjectiveRequirement: 1
+    expReward: 0
+    CoinsReward: 5
+  - title: "Prie\u0161\u0173 \u017Eudikas"
+    id: 10
+    progress: 1
+    description: "Nu\u017Eudyk bet kokius 7 prie\u0161us"
+    hint: "Atakuok prie\u0161us"
+    congratulation: Tau pavyko!
+    summary: 
+    nextQuest: 11
+    questObjective: "Nu\u017Eudyti prie\u0161ai"
+    questObjectiveCount: 0
+    questObjectiveRequirement: 7
+    expReward: 0
+    CoinsReward: 4
+  - title: "Golem\u0173 \u017Eudikas"
+    id: 11
+    progress: 3
+    description: "Nu\u017Eudyk 5 Golemus"
+    hint: "\u017Dudyk Golemus"
+    congratulation: Tau pavyko!
+    summary: 
+    nextQuest: 12
+    questObjective: "Nu\u017Eudyti golemai"
+    questObjectiveCount: 0
+    questObjectiveRequirement: 5
+    expReward: 0
+    CoinsReward: 7
+  - title: "Kaukoli\u0173 \u017Eudikas"
+    id: 12
+    progress: 0
+    description: "Nu\u017Eudyk 5 kaukoles"
+    hint: "\u017Dudyk kaukoles"
+    congratulation: Tau pavyko!
+    summary: 
+    nextQuest: 13
+    questObjective: "Nu\u017Eudytos kaukol\u0117s"
+    questObjectiveCount: 0
+    questObjectiveRequirement: 5
+    expReward: 0
+    CoinsReward: 12
+  - title: "Boso \u017Eudikas"
+    id: 13
+    progress: 0
+    description: "\u012Eveik bos\u0105"
+    hint: "Apsilankyk boso arenoje ir nugal\u0117k bos\u0105"
+    congratulation: Tau pavyko!
+    summary: 
+    nextQuest: 0
+    questObjective: "Nu\u017Eudytas bosas"
+    questObjectiveCount: 0
+    questObjectiveRequirement: 1
+    expReward: 0
+    CoinsReward: 15
+  currentQuestList: []
+  Shop: {fileID: 0}
+  inventoryManager: {fileID: 0}
+  MissionItem: {fileID: 11400000, guid: 40aba8756affcc547ac88071208ca777, type: 2}

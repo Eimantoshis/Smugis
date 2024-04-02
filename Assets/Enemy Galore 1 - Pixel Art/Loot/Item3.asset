@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 900ea06235bf0ed4f9b8522507949974, type: 3}
+  m_Name: Item3
+  m_EditorClassIdentifier: 
+  Name: Griovejas
+  whatToDrop: {fileID: 5182120339809033719, guid: 09ae57f5dd6900c4da8a4ff88f6475af,
+    type: 3}
