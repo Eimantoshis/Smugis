@@ -1,1 +1,1 @@
-First Unity project
+First Unity project made with a friend
